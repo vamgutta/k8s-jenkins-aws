@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JhooqDockerDemoController {
 
-    @GetMapping("/hello")
+    @GetMapping("/vamsi")
     public String hello() {
         return "This is Deployment implemented by Vamsi Krishna Gutta";
     }
