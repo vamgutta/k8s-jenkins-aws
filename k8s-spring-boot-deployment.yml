@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot
-          image: 830714/vamc:vamc             
+          image: 830714/julyimage2013:julyimage2013             
           ports:
             - containerPort: 8080
           env:
