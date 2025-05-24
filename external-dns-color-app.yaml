@@ -99,6 +99,7 @@ metadata:
   labels:
     app: color-app
   annotations:
+    kubernetes.io/ingress.class: alb
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
 spec:
@@ -119,3 +120,4 @@ spec:
                 name: green-service
                 port:
                   number: 80
+
